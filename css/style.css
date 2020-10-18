@@ -31,20 +31,23 @@ html,body{
     height: 60px;
     width: 60px;
     display: block;
-    background: #fff;
+    background: #fff;    
     text-align: center;
     border-radius: 50%;
     z-index: 2;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
-.wrapper .icon:hover span{
+.wrapper .icon span a{
+    color: #333;
+}
+.wrapper .icon:hover span a{
     color: #fff;
 }
 .wrapper .icon span i{
     font-size: 25px;
     line-height: 60px;
 }
-.wrapper .icon .tooltip{
+.wrapper .icon .tooltip {
     position: absolute;
     top: 0px;
     background: #fff;
